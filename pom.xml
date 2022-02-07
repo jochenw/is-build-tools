@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.jochenw.isbuildtools</groupId>
+  <artifactId>is-build-tools</artifactId>
+  <version>0.1-SNAPSHOT</version>
+  <name>IS Build Tools</name>
+  <description>Build tools for webMethods IS packages</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.github.jochenw.afw</groupId>
+  		<artifactId>afw-core</artifactId>
+  		<version>0.5.7-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.atlassian.commonmark</groupId>
+  		<artifactId>commonmark</artifactId>
+  		<version>0.17.0</version>
+  		<type>jar</type>
+  	</dependency>
+  </dependencies>
+  <properties>
+    <project.build.sourceDirectory>UTF-8</project.build.sourceDirectory>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+</project>
