@@ -12,15 +12,18 @@
   		<version>0.5.7-SNAPSHOT</version>
   	</dependency>
   	<dependency>
-  		<groupId>com.atlassian.commonmark</groupId>
+  		<groupId>org.commonmark</groupId>
   		<artifactId>commonmark</artifactId>
-  		<version>0.17.0</version>
+  		<version>0.18.1</version>
   		<type>jar</type>
   	</dependency>
   </dependencies>
   <properties>
-    <project.build.sourceDirectory>UTF-8</project.build.sourceDirectory>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+  <build>
+    <defaultGoal>clean install</defaultGoal>
+  </build>
 </project>
